@@ -1,26 +1,104 @@
 body {
-    background-color: #dbeee8;
+    margin: 0px;
+    align-content: center;
+    align-items: center;
+    background-image: url("2.png");
+    background-color: #73a2bf;
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #0d795e;
+    color: #bad9c2;
 }
 
-img {
-    border-radius: 8%;
+/*Menu*/
+#menu ul {
+    margin: 0px;
+    background-color: #f2f2f2;
+    list-style: none;
 }
 
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 12px 15px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+
+}
+
+#menu ul li a:hover {
+    color: #f2f2f2;
+    background: #d95032;
+}
+
+
+/*Nome*/
 h1 {
-    color: #fe8373;
+    color: #d95032;
+    font-style: oblique;
+    margin-left: 20px;
+    margin-top: 50px;
 }
 
-h2 {
+/*Foto*/
+img {
+    border-radius: 50%;
+    width: 200px;
+    padding: 10px;
+}
+
+#descricao {
+    padding: 10px;
+    justify-content: left;
+    background-color: #d95032;
+    color: white;
+}
+
+/*Habilidades*/
+h2 {margin-left: 10px;}
+
+
+/*Links externos*/
+#footer {
+    margin: 0px;
+    background-color: #f2f2f2;
+    list-style: none;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px 550px;
+  }
+
+#footer i {
+    display: inline;
+}
+
+#footer i a{
+    padding: 5px 10px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+
 
 }
 
-h3 {
-
+/*Destaques na descrição*/
+.destaque {
+    font-weight: bold;
+    color: #f2f2f2;
+    ;
 }
 
-h4 {
-    
+/*Link da Trybe na descrição*/
+#trybe {
+    color: #f2f2f2;
+    ;
+}
 
+#pic {
+    width: 200px; 
+    margin-left: auto;
+    margin-right: auto; 
 }
